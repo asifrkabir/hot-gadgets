@@ -1,0 +1,101 @@
+.banner {
+    background-image: url(images/bg/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px auto;
+}
+
+.top{
+    background-image: url(images/bg/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: 0px 300px;
+}
+
+.navigator img{
+    max-width: 50%;
+    height: auto;
+}
+
+.navigator{
+    margin-bottom: 100px;
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    width: 7px !important;
+    background-color: grey !important;
+    border-top: 10px solid transparent;
+    border-radius: 20px;
+}
+
+.carousel-indicators .active {
+    width: 20px !important;
+    background-image: linear-gradient(90deg, #FF9C35, #FFD019) !important;
+}
+
+.category-caption {
+    display: flex;
+}
+
+.container .text-orange {
+    color: orange;
+}
+
+.card-deck-caption {
+    margin-bottom: 30px;
+}
+
+.card-deck img {
+    padding: 20px;
+}
+
+.card-deck .card {
+    text-align: center;
+    box-shadow: 0px 5px 10px rgb(231, 229, 229);
+    border-radius: 2%;
+    border: none;
+}
+
+.card-deck p {
+    margin-bottom: 40px;
+}
+
+.card-deck .card-footer {
+    border-top: none;
+    background-color: white;
+    padding-top: 1px;
+}
+
+.card-deck .card-body {
+    padding-bottom: 1px;
+}
+
+.card-deck .btn {
+    margin-bottom: 10px;
+}
+
+h3, h5 {
+    text-align: center;
+}
+
+.underline-orange{
+    background-image: linear-gradient(90deg, #FF9C35, #FFD019);
+    height: 7px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+
+.category-card{
+    transform: scale(0.8);
+    box-shadow: 1px 1px 40px rgb(224, 224, 224);
+    border-radius: 10px;
+}
